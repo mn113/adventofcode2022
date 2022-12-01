@@ -6,7 +6,7 @@ https://adventofcode.com/2022
 
 | Puzzle | Difficulty | Fun | Completion | Python | Ruby | Elixir | PHP | JS | other |
 |--------|------------|-----|------------|:------:|:----:|:------:|:---:|:--:|:-----:|
-| [Day 1](https://adventofcode.com/2022/day/1) | - | - | - | - | - | - | - | - | - |
+| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [01.exs](elixir/01.exs) | - | - | - |
 
 ## Elixir
 
@@ -54,7 +54,7 @@ php 05.php
 
 ## NodeJS
 
-> Node Version: 14
+> Node Version: 18.12
 
 Run a solution
 
