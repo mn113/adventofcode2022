@@ -7,6 +7,8 @@ https://adventofcode.com/2022
 | Puzzle | Difficulty | Fun | Completion | Python | Ruby | Elixir | PHP | JS | other |
 |--------|------------|-----|------------|:------:|:----:|:------:|:---:|:--:|:-----:|
 | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [01.exs](elixir/01.exs) | - | - | :gem: [01.cr](crystal/01.cr) |
+| [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | 2 | 3 | :star: :star: | - | - | :heart_decoration: [02.exs](elixir/02.exs) | - | - | - |
+
 
 ## Elixir
 
