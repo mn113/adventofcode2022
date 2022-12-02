@@ -6,11 +6,11 @@ https://adventofcode.com/2022
 
 | Puzzle | Difficulty | Fun | Completion | Python | Ruby | Elixir | PHP | JS | other |
 |--------|------------|-----|------------|:------:|:----:|:------:|:---:|:--:|:-----:|
-| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [01.exs](elixir/01.exs) | - | - | - |
+| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [01.exs](elixir/01.exs) | - | - | :gem: [01.cr](crystal/01.cr) |
 
 ## Elixir
 
-> Elixir Version: 1.13
+> Elixir Version: 1.14
 
 Run a solution
 
@@ -28,6 +28,17 @@ Run a solution
 ```sh
 cd ruby
 ruby 01.rb
+```
+
+## Crystal
+
+> Crystal Version: 1.6
+
+Run a solution
+
+```sh
+cd crystal
+crystal 01.cr
 ```
 
 ## Python

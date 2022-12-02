@@ -1,5 +1,5 @@
 defmodule Day01 do
-  # Read input and transform to list of lists of numbers
+  # Read input and transform to list of sums of number groups
   defp read_input do
     File.read!(Path.expand("../inputs/input01.txt"))
     |> String.split("\n\n")
@@ -7,6 +7,7 @@ defmodule Day01 do
         |> String.split("\n")
         |> Enum.map(fn line -> Integer.parse(line) end)
         |> Enum.map(fn {num, _} -> num end)
+        |> Enum.sum
     end)
   end
 
@@ -15,7 +16,6 @@ defmodule Day01 do
   """
   def part1 do
     read_input()
-    |> Enum.map(fn group -> Enum.sum(group) end)
     |> Enum.max
     |> IO.inspect(label: "P1")
   end
@@ -25,7 +25,6 @@ defmodule Day01 do
   """
   def part2 do
     read_input()
-    |> Enum.map(fn group -> Enum.sum(group) end)
     |> Enum.sort
     |> Enum.reverse
     |> Enum.take(3)
