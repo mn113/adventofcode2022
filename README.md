@@ -8,7 +8,7 @@ https://adventofcode.com/2022
 |--------|------------|-----|------------|:------:|:----:|:------:|:---:|:--:|:-----:|
 | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [01.exs](elixir/01.exs) | - | - | :gem: [01.cr](crystal/01.cr) |
 | [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | 2 | 3 | :star: :star: | - | - | :heart_decoration: [02.exs](elixir/02.exs) | - | - | - |
-| [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | 1 | 3 | :star: :star: | - | - | :heart_decoration: [03.exs](elixir/03.exs) | - | - | - |
+| [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | 1 | 3 | :star: :star: | - | - | :heart_decoration: [03.exs](elixir/03.exs) | - | - | :gem: [03.cr](crystal/03.cr) |
 
 ## Elixir
 
