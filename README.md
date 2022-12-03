@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-2-red) ![](https://img.shields.io/badge/stars%20⭐-4-yellow)
+![](https://img.shields.io/badge/days%20completed-3-red) ![](https://img.shields.io/badge/stars%20⭐-6-yellow)
 
 https://adventofcode.com/2022
 
@@ -8,7 +8,7 @@ https://adventofcode.com/2022
 |--------|------------|-----|------------|:------:|:----:|:------:|:---:|:--:|:-----:|
 | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [01.exs](elixir/01.exs) | - | - | :gem: [01.cr](crystal/01.cr) |
 | [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | 2 | 3 | :star: :star: | - | - | :heart_decoration: [02.exs](elixir/02.exs) | - | - | - |
-
+| [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | 1 | 3 | :star: :star: | - | - | :heart_decoration: [03.exs](elixir/03.exs) | - | - | - |
 
 ## Elixir
 
@@ -23,7 +23,7 @@ elixir -r 01.exs -e Day01.part1
 
 ## Ruby
 
-> Ruby Version: 2.4
+> Ruby Version: 3.1
 
 Run a solution
 
