@@ -39,10 +39,10 @@ puts "P1: #{part1()}" # 7821
 # Find the sum of scores of the common item found in each chunk of 3 rucksacks (lines)
 def part2
   RUCKSACKS
-  .each_slice(3)
-  .map{ |trio| {trio[0], trio[1], trio[2]} }
-  .map{ |bins| find_common_item_of3(*bins) }
-  .map{ |i| score_item(i) }
-  .sum
+    .each_slice(3)
+    .map{ |trio| {trio[0], trio[1], trio[2]} }
+    .map{ |bins| find_common_item_of3(*bins) }
+    .map{ |i| score_item(i) }
+    .sum
 end
 puts "P2: #{part2()}" # 2752
