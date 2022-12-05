@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-4-red) ![](https://img.shields.io/badge/stars%20⭐-8-yellow)
+![](https://img.shields.io/badge/days%20completed-5-red) ![](https://img.shields.io/badge/stars%20⭐-10-yellow)
 
 https://adventofcode.com/2022
 
@@ -10,6 +10,7 @@ https://adventofcode.com/2022
 | [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | 2 | 3 | :star: :star: | - | - | :heart_decoration: [02.exs](elixir/02.exs) | - | - | - |
 | [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | 1 | 3 | :star: :star: | - | - | :heart_decoration: [03.exs](elixir/03.exs) | - | - | :gem: [03.cr](crystal/03.cr) |
 | [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [04.exs](elixir/04.exs) | - | - | :gem: [04.cr](crystal/04.cr) |
+| [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5) | 2 | 2 | :star: :star: | - | - | :heart_decoration: [05.exs](elixir/05.exs) | - | - | - |
 
 ## Elixir
 
