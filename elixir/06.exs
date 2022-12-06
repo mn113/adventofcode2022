@@ -4,14 +4,14 @@ defmodule Day06 do
   end
 
   # Find the string offset of the last of N unique consecutive characters
-  defp find_unique_chain_end(chain, chain_length) do
+  defp find_unique_chain_end(chain, subchain_length) do
     chain
       |> String.graphemes
-      |> Enum.chunk_every(chain_length, 1, :discard)
+      |> Enum.chunk_every(subchain_length, 1, :discard)
       |> Enum.with_index
-      |> Enum.find(fn {chain, _} -> MapSet.size(MapSet.new(chain)) == chain_length end)
+      |> Enum.find(fn {chain, _} -> MapSet.size(MapSet.new(chain)) == subchain_length end)
       |> elem(1)
-      |> then(&(&1 + chain_length))
+      |> then(&(&1 + subchain_length))
   end
 
   @doc """

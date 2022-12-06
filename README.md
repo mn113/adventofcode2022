@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-5-red) ![](https://img.shields.io/badge/stars%20⭐-10-yellow)
+![](https://img.shields.io/badge/days%20completed-6-red) ![](https://img.shields.io/badge/stars%20⭐-12-yellow)
 
 https://adventofcode.com/2022
 
@@ -11,6 +11,7 @@ https://adventofcode.com/2022
 | [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | 1 | 3 | :star: :star: | - | - | :heart_decoration: [03.exs](elixir/03.exs) | - | - | :gem: [03.cr](crystal/03.cr) |
 | [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4) | 1 | 2 | :star: :star: | - | - | :heart_decoration: [04.exs](elixir/04.exs) | - | - | :gem: [04.cr](crystal/04.cr) |
 | [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5) | 2 | 2 | :star: :star: | - | - | :heart_decoration: [05.exs](elixir/05.exs) | - | - | - |
+| [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6) | 1 | 3 | :star: :star: | - | - | :heart_decoration: [06.exs](elixir/06.exs) | - | - | :gem: [06.cr](crystal/06.cr) |
 
 ## Elixir
 
