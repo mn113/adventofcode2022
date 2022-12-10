@@ -54,7 +54,6 @@ lines.forEach(line => {
 });
 
 // Find sum of all dir sizes up to 100kB
-//p(dirs);
 p('P1:', Object.values(dirs).map(o => o.size).filter(size => size <= 100000).reduce((a,b) => a + b)); // 1642503
 
 // Find smallest dir to delete to free up space
