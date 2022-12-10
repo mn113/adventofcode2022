@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-9-red) ![](https://img.shields.io/badge/stars%20⭐-18-yellow)
+![](https://img.shields.io/badge/days%20completed-10-red) ![](https://img.shields.io/badge/stars%20⭐-20-yellow)
 
 https://adventofcode.com/2022
 
@@ -15,6 +15,7 @@ https://adventofcode.com/2022
 | [Day 7: No Space Left On Device](https://adventofcode.com/2022/day/7) | 3 | 3 | :star: :star: | - | - | - | - | :jack_o_lantern: **[07.js](js/07.js)** | - |
 | [Day 8: Treetop Tree House](https://adventofcode.com/2022/day/8) | 2 | 3 | :star: :star: | - | - | - | - | - | :gem: **[08.cr](crystal/08.cr)** |
 | [Day 9: Rope Bridge](https://adventofcode.com/2022/day/9) | 2 | 2 | :star: :star: | - | - | - | - | - | :gem: **[09.cr](crystal/09.cr)** |
+| [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | 3 | 3 | :star: :star: | - | - | :heart_decoration: **[10.exs](elixir/10.exs)** | - | - | - |
 
 _**Bold** = primary language for that day (others are ports)_
 ## Elixir
