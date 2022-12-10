@@ -99,7 +99,7 @@ defmodule Day10 do
       |> Enum.map(fn row -> row
         |> Enum.with_index
         |> Enum.map(fn {x,i} ->
-          if x in (i-1)..(i+1), do: "#", else: "."
+          if x in (i-1)..(i+1), do: "█", else: " "
         end)
         |> Enum.join
       end)
