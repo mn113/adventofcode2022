@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-11-red) ![](https://img.shields.io/badge/stars%20⭐-22-yellow)
+![](https://img.shields.io/badge/days%20completed-12-red) ![](https://img.shields.io/badge/stars%20⭐-24-yellow)
 
 https://adventofcode.com/2022
 
@@ -17,6 +17,7 @@ https://adventofcode.com/2022
 | [Day 9: Rope Bridge](https://adventofcode.com/2022/day/9) | 2 | 2 | :star: :star: | - | - | - | - | - | :gem: **[09.cr](crystal/09.cr)** |
 | [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | 3 | 3 | :star: :star: | - | - | :heart_decoration: **[10.exs](elixir/10.exs)** | - | - | - |
 | [Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/10) | 3 | 3 | :star: :star: | - | - | - | - | :jack_o_lantern: **[11.js](js/11.js)** | - |
+| [Day 12: Hill Climbing Algorithm](https://adventofcode.com/2022/day/11) | 3 | 2 | :star: :star: | :snake: **[12.py](python/12.py)** | - | - | - | - | - |
 
 _**Bold** = primary language for that day (others are ports)_
 
