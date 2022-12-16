@@ -1,9 +1,9 @@
 #!/usr/bin/env crystal
 
-record Point, x : Int32, y : Int32
+record Point, x : Int64, y : Int64
 
 def read_input
-  sensors = {} of Point => Int32
+  sensors = {} of Point => Int64
   beacons = {} of Point => Bool
   min_x = max_x = 0
 
@@ -22,7 +22,7 @@ def read_input
     max_x = sensor.x + md if sensor.x + md > max_x
   end
 
-  {sensors, beacons, min_x, max_x}
+  {sensors, beacons, min_x.as(Int64), max_x.as(Int64)}
 end
 
 def manhattan_dist(p1, p2)
@@ -30,7 +30,7 @@ def manhattan_dist(p1, p2)
 end
 
 # Find the number of blocked cells in row 2000000
-def part1
+def part1 : Int32
   sensors, beacons, min_x, max_x = read_input()
 
   target_y = 2_000_000
@@ -48,4 +48,69 @@ def part1
 end
 puts "P1: #{part1()}" # 4424278
 
-# Part 2: find the location of the only undiscovered beacon in a field of 40million x 40million
+# check coord against each sensor coord & its maxdist
+# if cell is not reached by any sensor => cell found!
+def try_all_sensors(coord, sensors) : Bool
+    !sensors.has_key?(coord) &&
+    sensors.all?{ |k,v| manhattan_dist(coord, k) > v }
+end
+
+# check if coord outside of part 2 bounds
+def out_of_bounds(coord) : Bool
+  coord.x < 0 || coord.x > 4_000_000 || coord.y < 0 || coord.y > 4_000_000
+end
+
+# walk perimeter of each sensor's field until elusive beacon is found
+def search_perimeters() : Point | Nil
+  sensors, _ = read_input()
+
+  seen = Set(Point).new
+  sensors_seen = 0
+
+  sensors.each do |k,v|
+    top = Point.new(k.x, k.y - v - 1)
+    bottom = Point.new(k.x, k.y + v + 1)
+    left = Point.new(k.x - v - 1, k.y)
+    right = Point.new(k.x + v + 1, k.y)
+
+    coord = top
+    while coord != left
+      if !seen.includes?(coord) && !out_of_bounds(coord)
+        return coord if try_all_sensors(coord, sensors)
+        seen.add(coord)
+      end
+      coord = Point.new(coord.x - 1, coord.y + 1)
+    end
+    while coord != bottom
+      if !seen.includes?(coord) && !out_of_bounds(coord)
+        return coord if try_all_sensors(coord, sensors)
+        seen.add(coord)
+      end
+      coord = Point.new(coord.x + 1, coord.y + 1)
+    end
+    while coord != right
+      if !seen.includes?(coord) && !out_of_bounds(coord)
+        return coord if try_all_sensors(coord, sensors)
+        seen.add(coord)
+      end
+      coord = Point.new(coord.x + 1, coord.y - 1)
+    end
+    while coord != top
+      if !seen.includes?(coord) && !out_of_bounds(coord)
+        return coord if try_all_sensors(coord, sensors)
+        seen.add(coord)
+      end
+      coord = Point.new(coord.x - 1, coord.y - 1)
+    end
+    sensors_seen += 1
+    p "seen #{sensors_seen} sensor perimeters and #{seen.size} points"
+  end
+  Point.new(0,0) # avoids nil return type, won't be reached
+end
+
+# Part 2: find the location of the only undiscovered beacon in a field of 4million x 4million
+def part2
+  final_beacon = search_perimeters() # (2595657, 2753392)
+  final_beacon.x * 4_000_000 + final_beacon.y
+end
+puts "P2: #{part2()}" # 10382630753392
