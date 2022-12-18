@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-15-red) ![](https://img.shields.io/badge/stars%20⭐-30-yellow)
+![](https://img.shields.io/badge/days%20completed-16-red) ![](https://img.shields.io/badge/stars%20⭐-34-yellow)
 
 https://adventofcode.com/2022
 
@@ -21,6 +21,9 @@ https://adventofcode.com/2022
 | [Day 13: Distress Signal](https://adventofcode.com/2022/day/13) | 2 | 3 | :star: :star: | - | - | - | - | :jack_o_lantern: **[13.js](js/13.js)** | - |
 | [Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14) | 3 | 4 | :star: :star: | - | - | - | - | :jack_o_lantern: **[14.js](js/14.js)** | - |
 | [Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15) | 5 | 2 | :star: :star: | - | - | - | - | - | :gem: **[15.cr](crystal/15.cr)** |
+| [Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16) | 5 | 3 | :star: | 16.py | - | - | - | - | - |
+| [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17) | 5 | 4 | :star: | - | - | - | - | 17.js | - |
+| [Day 18: Beacon Exclusion Zone](https://adventofcode.com/2022/day/18) | 2 | 4 | :star: :star: | - | - | :heart_decoration: **[18.exs](elixir/18.exs)** | - | - | - |
 
 _**Bold** = primary language for that day (others are ports)_
 
