@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-17-red) ![](https://img.shields.io/badge/stars%20⭐-37-yellow)
+![](https://img.shields.io/badge/days%20completed-18-red) ![](https://img.shields.io/badge/stars%20⭐-38-yellow)
 
 https://adventofcode.com/2022
 
@@ -23,7 +23,11 @@ https://adventofcode.com/2022
 | [Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15) | 5 | 2 | :star: :star: | - | - | - | - | - | :gem: **[15.cr](crystal/15.cr)** |
 | [Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16) | 5 | 3 | :star: | 16.py | - | - | - | - | - |
 | [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17) | 5 | 4 | :star: | - | - | - | - | 17.js | - |
-| [Day 18: Beacon Exclusion Zone](https://adventofcode.com/2022/day/18) | 2 | 4 | :star: :star: | - | - | :heart_decoration: **[18.exs](elixir/18.exs)** | - | - | - |
+| [Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18) | 2 | 4 | :star: :star: | - | - | :heart_decoration: **[18.exs](elixir/18.exs)** | - | - | - |
+| [Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19) | 5 |  |  | - | - | - | - | - | - |
+| [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | 3 | 2 | :star: :star: | - | - | - | - | :jack_o_lantern: **[20.js](js/20.js)** | - |
+| [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | 3 | 3 | :star: :star: | - | - | :heart_decoration: **[21.exs](elixir/21.exs)** | - | - | - |
+| [Day 22: Monkey Map](https://adventofcode.com/2022/day/22) |   |   |   | - | - | - | - | - | - |
 
 _**Bold** = primary language for that day (others are ports)_
 
@@ -36,17 +40,6 @@ Run a solution
 ```sh
 cd elixir
 elixir -r 01.exs -e Day01.part1
-```
-
-## Ruby
-
-> Ruby Version: 3.1
-
-Run a solution
-
-```sh
-cd ruby
-ruby 01.rb
 ```
 
 ## Crystal
