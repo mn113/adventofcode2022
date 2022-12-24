@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-19-red) ![](https://img.shields.io/badge/stars%20⭐-40-yellow)
+![](https://img.shields.io/badge/days%20completed-20-red) ![](https://img.shields.io/badge/stars%20⭐-42-yellow)
 
 https://adventofcode.com/2022
 
@@ -28,7 +28,7 @@ https://adventofcode.com/2022
 | [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | 3 | 2 | :star: :star: | - | - | - | - | :jack_o_lantern: **[20.js](js/20.js)** | - |
 | [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | 3 | 3 | :star: :star: | - | - | :heart_decoration: **[21.exs](elixir/21.exs)** | - | - | - |
 | [Day 22: Monkey Map](https://adventofcode.com/2022/day/22) | 4 | 3 | :star: :star: | - | - | - | :elephant: **[22.php](php/22.php)** | - | - |
-| [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) |   |   |   | - | - | - | - | - | - |
+| [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) | 3 | 3 | :star: :star: | - | - | - | - | - | :gem: **[23.cr](crystal/23.cr)** |
 
 _**Bold** = primary language for that day (others are ports)_
 
