@@ -29,7 +29,7 @@ https://adventofcode.com/2022
 | [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | 3 | 3 | :star: :star: | - | - | :heart_decoration: **[21.exs](elixir/21.exs)** | - | - | - |
 | [Day 22: Monkey Map](https://adventofcode.com/2022/day/22) | 4 | 3 | :star: :star: | - | - | - | :elephant: **[22.php](php/22.php)** | - | - |
 | [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) | 3 | 3 | :star: :star: | - | - | - | - | - | :gem: **[23.cr](crystal/23.cr)** |
-| [Day 24: Blizzard Basin](https://adventofcode.com/2022/day/24) |   |   | | - | - | - | - | - | :gem: **[23.cr](crystal/23.cr)** |
+| [Day 24: Blizzard Basin](https://adventofcode.com/2022/day/24) |   |   | | - | - | - | - | - | - |
 | [Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25) | 3 | 2 | :star: | - | - | :heart_decoration: **[25.exs](elixir/25.exs)** | - | - | - |
 
 _**Bold** = primary language for that day (others are ports)_
