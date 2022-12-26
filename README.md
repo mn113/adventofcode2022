@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-21-red) ![](https://img.shields.io/badge/stars%20⭐-43-yellow)
+![](https://img.shields.io/badge/days%20completed-22-red) ![](https://img.shields.io/badge/stars%20⭐-44-yellow)
 
 https://adventofcode.com/2022
 
@@ -22,7 +22,7 @@ https://adventofcode.com/2022
 | [Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14) | 3 | 4 | :star: :star: | - | - | - | - | :jack_o_lantern: **[14.js](js/14.js)** | - |
 | [Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15) | 5 | 2 | :star: :star: | - | - | - | - | - | :gem: **[15.cr](crystal/15.cr)** |
 | [Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16) | 5 | 3 | :star: | 16.py | - | - | - | - | - |
-| [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17) | 5 | 4 | :star: | - | - | - | - | 17.js | - |
+| [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17) | 5 | 4 | :star: :star: | - | - | - | - | :jack_o_lantern: **[17.js](js/17.js)** | - |
 | [Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18) | 2 | 4 | :star: :star: | - | - | :heart_decoration: **[18.exs](elixir/18.exs)** | - | - | - |
 | [Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19) | 5 |  |  | - | - | - | - | - | - |
 | [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | 3 | 2 | :star: :star: | - | - | - | - | :jack_o_lantern: **[20.js](js/20.js)** | - |
