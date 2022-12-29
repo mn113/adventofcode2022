@@ -1,0 +1,92 @@
+strict graph {
+    AA [style=filled,fontsize=30]
+    NC [style=filled,color=red,label="NC\n25"]
+    MW [style=filled,color=red,label="MW\n23"]
+    NM [style=filled,color=red,label="NM\n22"]
+    YH [style=filled,color=red,label="YH\n20"]
+    YP [style=filled,color=red,label="YP\n19"]
+    XS [style=filled,color=orange,label="XS\n17"]
+    XK [style=filled,color=orange,label="XK\n15"]
+    WK [style=filled,color=orange,label="WK\n12"]
+    ZG [style=filled,color=orange,label="ZG\n11"]
+    NU [style=filled,color=orange,label="NU\n10"]
+    QC [style=filled,color=lawngreen,label="QC\n9"]
+    EI [style=filled,color=lawngreen,label="EI\n6"]
+    EA [style=filled,color=lawngreen,label="EA\n5"]
+    RA [style=filled,color=lawngreen,label="RA\n4"]
+    CX [style=filled,color=lawngreen,label="CX\n3"]
+    subgraph {
+      rank = source; AA;
+    }
+    subgraph {
+      rank = min; NC; MW; NM; YH; YP;
+    }
+    subgraph {
+      rank = same; XS; XK; WK; ZG; NU;
+    }
+    subgraph {
+      rank = max; QC; EI; EA; RA; CX;
+    }
+
+    AA -- AL
+    AA -- CS
+    AA -- MS
+    AA -- TK
+    AA -- WC
+    AH -- MS
+    AH -- WK
+    AL -- NU
+    AM -- CX
+    AM -- NU
+    CD -- XK
+    CD -- YH
+    CE -- WD
+    CE -- XS
+    CS -- VJ
+    CX -- OE
+    CX -- QE
+    CX -- YS
+    CX -- ZN
+    DC -- NM
+    DC -- UE
+    DU -- NU
+    DU -- SH
+    DX -- NM
+    DX -- YP
+    EA -- GX
+    EA -- QE
+    EA -- XO
+    EI -- HD
+    EI -- UB
+    GX -- RA
+    HD -- JI
+    HS -- NU
+    HS -- QC
+    JC -- XK
+    JC -- XS
+    JI -- RA
+    MW -- PY
+    NC -- UI
+    NC -- VQ
+    NM -- VE
+    NU -- RN
+    OE -- WC
+    OV -- QC
+    OV -- WK
+    PY -- UB
+    QC -- VJ
+    QC -- YS
+    RA -- TK
+    RA -- TP
+    RA -- WD
+    RN -- WK
+    SH -- ZG
+    TP -- XK
+    UE -- XK
+    UI -- ZG
+    VE -- YH
+    VQ -- WK
+    WK -- XI
+    XI -- ZN
+    XO -- ZG
+}
