@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![](https://img.shields.io/badge/days%20completed-24-red) ![](https://img.shields.io/badge/stars%20⭐-47-yellow)
+![](https://img.shields.io/badge/days%20completed-25-red) ![](https://img.shields.io/badge/stars%20⭐-50-yellow)
 
 https://adventofcode.com/2022
 
@@ -24,13 +24,13 @@ https://adventofcode.com/2022
 | [Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16) | 5 | 4 | :star: :star: | :snake: **[16.py](python/16.py)** | - | - | - | - | - |
 | [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17) | 5 | 4 | :star: :star: | - | - | - | - | :jack_o_lantern: **[17.js](js/17.js)** | - |
 | [Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18) | 2 | 4 | :star: :star: | - | - | :heart_decoration: **[18.exs](elixir/18.exs)** | - | - | - |
-| [Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19) | 5 |  |  | - | - | - | - | - | - |
+| [Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19) | 5 | 3 | :star: :star: | :snake: **[19.py](python/19.py)** | - | - | - | - | - |
 | [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | 3 | 2 | :star: :star: | - | - | - | - | :jack_o_lantern: **[20.js](js/20.js)** | - |
 | [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | 3 | 3 | :star: :star: | - | - | :heart_decoration: **[21.exs](elixir/21.exs)** | - | - | - |
 | [Day 22: Monkey Map](https://adventofcode.com/2022/day/22) | 4 | 3 | :star: :star: | - | - | - | :elephant: **[22.php](php/22.php)** | - | - |
 | [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) | 3 | 3 | :star: :star: | - | - | - | - | - | :gem: **[23.cr](crystal/23.cr)** |
 | [Day 24: Blizzard Basin](https://adventofcode.com/2022/day/24) | 3 | 3 | :star: :star: | :snake: **[24.py](python/24.py)** | - | - | - | - | - |
-| [Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25) | 3 | 2 | :star: | - | - | :heart_decoration: **[25.exs](elixir/25.exs)** | - | - | - |
+| [Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25) | 3 | 2 | :star: :star: | - | - | :heart_decoration: **[25.exs](elixir/25.exs)** | - | - | - |
 
 _**Bold** = primary language for that day (others are ports)_
 
